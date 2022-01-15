@@ -27,6 +27,7 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(26ch, 1fr));
   grid-gap: 2rem;
+  margin-bottom: 6rem;
 }
 
 .links {
