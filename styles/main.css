@@ -18,8 +18,19 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+img {
+  width: 100%;
+  display: block;
+}
+
 main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(26ch, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 2rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
 }
